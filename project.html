@@ -2,9 +2,18 @@
 <html>
 
 <head>
-    <title>Parcel Sandbox</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sample Project</title>
+    <link rel="stylesheet" href="./mystyle/mystyle.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
 </head>
 
 <body>
@@ -42,81 +51,53 @@
     </div>
 
     <!-- section 2 -->
-    <div class="section2">
-        <h2>Our Services</h2>
-        <div class="section2-grid">
-            <div class="single-box">
-                <div class="img-area">
-                    <i class="single-box-icon"></i>
-                </div>
-                <div class="img-text">
-                   <span class="header-text"><strong> EASY TO USED</strong></span> 
-                    <p>
-                     Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec tincidunt bibendum gravida
-                    </p>
-                </div>
-            </div>
-            <div class="single-box">
-                <div class="img-area">
-                    <i class="single-box-icon"></i>
-                </div>
-                <div class="img-text">
-                    <span class="header-text"><strong>AWESOME DESIGN</strong></span>
-                    <p>
-                        Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec
-                        tincidunt bibendum gravida
-                    </p>
+    <div class="grid container-fluid padding" >
+        <div class="container padding ">
+            <div class"padding">
+                <h1 class="text-center">Our Services</h1>
+                <div id="line"></div>
+                <div class="row row-gap">
+                        <div class="col-md-4 myclass  padding raised-block ">
+                            <span class="border border-width rounded-circle border-light"><i class="fas fa-cog   image"> </i></span>
+                        <h5 class="text-center">EASY TO USED </h5>
+                        <p class="text-center"> Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec tincidunt bibendum gravida</p>
+                            </div>
+                    <div class="col-md-4 myclass padding raised-block ">
+                            <span class="border border-width rounded-circle border-light"><i class="fas fa-chart-line image"> </i></span>
+                        <h5 class ="text-center">AWESOME DESIGN</h5>
+                        <p class="text-center">Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec tincidunt bibendum gravida</p> 
+                    </div>
+                    <div class="col-md-4 myclass padding raised-block ">
+                    <span class="border border-width rounded-circle border-light"><i class="fas fa-user-friends image"> </i></span>
+                        <h5 class="text-center">EASY TO CUSTOMIZE</h5>
+                            <p class="text-center"> Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec tincidunt bibendum gravida</p>
+                    </div>
                 </div>
             </div>
-            <div class="single-box">
-                <div class="img-area">
-                    <i class="single-box-icon"></i>
-                </div>
-                <div class="img-text">
-                    <span class="header-text"><strong>EASY TO CUSTOMIZE</strong></span>
-                    <p>
-                        Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec
-                        tincidunt bibendum gravida
-                    </p>
-                </div>
-            </div>
-            <div class="single-box">
-                <div class="img-area">
-                    <i class="single-box-icon"></i>
-                </div>
-                <div class="img-text">
-                    <span class="header-text"><strong>UI/UX DESIGN</strong></span>
-                    <p>
-                        Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec
-                        tincidunt bibendum gravida
-                    </p>
-                </div>
-            </div>
-            <div class="single-box">
-                <div class="img-area">
-                    <i class="single-box-icon"></i>
-                </div>
-                <div class="img-text">
-                    <span class="header-text"><strong>APP DEVELOPMENT</strong></span>
-                    <p>
-                        Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec
-                        tincidunt bibendum gravida
-                    </p>
-                </div>
-            </div>
-            <div class="single-box">
-                <div class="img-area">
-                    <i class="single-box-icon"></i>
-                </div>
-                <div class="img-text">
-                    <span class="header-text"><strong>USER FRIENDLY</strong></span>
-                    <p>
-                        Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec
-                        tincidunt bibendum gravida
-                    </p>
-                </div>
-            </div>
+            
         </div>
+        <div class="container-fluid padding ">
+            <div class="row row-gap">
+                <div class="col-md-4 myclass ">
+                        <span class="border border-width rounded-circle border-light"><i class="fas fa-layer-group image"> </i></span>
+                    <h5 class="text-center">UI/UX DESIGN</h5>
+                    
+                        <p class="text-center">Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec tincidunt bibendum gravidat</p>
+                </div>
+                <div class="col-md-4 myclass">
+                        <span class="border border-width rounded-circle border-light"><i class="fas fa-mobile-alt image"> </i></span>   
+                    <h5 class="text-center">APP DEVELOPMENT</h5>
+                    
+                        <p class="text-center">  Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec tincidunt bibendum gravida</p>
+                </div>
+                <div class="col-md-4 myclass">
+                        <span class="border border-width rounded-circle border-light"><i class="fas fa-rocket image"> </i></span>
+                    <h5 class="text-center">USER FRIENDLY</h5>
+                    
+                        <p class="text-center">Ut maximus enim dolar.Aenean auctor risus eget tincidunt loborts.Donec tincidunt bibendum gravida</p>
+                </div>
+            </div>
+        </div> 
     </div>
 
     <!-- section 3 -->
@@ -134,147 +115,103 @@
     </div>
 
     <!--section 4-->
-    <div class="section4a">
-        <div class="section4a">
-            <h3>Awesome Features</h3>
-            <div class="section4a-grid">
-                <div class="section4a-single-box">
-                    <div class="section4a-img-text">
-                        <h6>Bootstrap 4 Based<h6>
-                        <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
-                    </div>
-                    <div class="img-area">
-                        <i class="section4a-icons"></i>
-                    </div>
-                </div>
-                <div class="section4a-single-box">
-                    <div class="img-text">
-                        <h6 class="header-text">Fully Responsive</h6>
-                        <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
-                    </div>
-                    <div class="img-area">
-                        <i class="section4a-icons"></i>
-                    </div>
-                </div>
-                <div class="section4a-single-box">
-                    <div class="img-text">
-                        <h6 class="header-text">HTML5,CSS3 & SASS</h6>
-                        <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
-                    </div>
-                    <div class="img-area">
-                        <i class="section4a-icons"></i>
-                    </div>
-                </div>
-                <img src="" alt="image" />
-                <div class="section4a-single-box">
-                    <div class="img-area"></div>
-                    <div class="img-text">
-                        <h6 class="header-text">Modern Desing</h6>
-                        <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
-                    </div>
-                    <div class="img-area">
-                        <i class="section4a-icons"></i>
-                    </div>
-                </div>
-                <div class="section4a-single-box">
-                    <div class="img-text">
-                        <h6 class="header-text">Muilti-purpose Template</h6>
-                        <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
-                    </div>
-                    <div class="img-area">
-                        <i class="section4a-icons"></i>
-                    </div>
-                </div>
-                <div class="section4a-single-box">
-                    <div class="img-text">
-                        <h6 class="header-text">Working Contact Form</h6>
-                        <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
-                    </div>
-                    <div class="img-area">
-                        <i class="section4a-icons"></i>
-                    </div>
-                </div>
+    <div class="container">
+        <h1>Awesome Features</h1>
+        <div class="row">
+            <div class="col-md-4 myclass">
+                <h6>Bootstrap 4 Based<h6>
+                <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>        
             </div>
-        </div>
+                <div class="col-md-4 myclass">
+                <img src="./image/section4.png" alt="logo" height="450" width="300">   
+            </div>
+            <div class="col-md-4 myclass">
+                <h6 class="header-text">Fully Responsive</h6>
+                <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p> 
+            </div>
+            <div class="col-md-4 myclass">
+                <h6 class="header-text">Fully Responsive</h6>
+                <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p> 
+            </div>
+            <div class="col-md-4 myclass">
+                
+            </div>
+            <div class="col-md-4 myclass">
+                <h6 class="header-text">Fully Responsive</h6>
+                <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p> 
+            </div>
+            <div class="col-md-4 myclass">
+                    <h6 class="header-text">HTML5,CSS3 & SASS</h6>
+                    <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
+                </div>
+                <div class="col-md-4 myclass">
+                    
+                </div>
+                <div class="col-md-4 myclass">
+                    <h6 class="header-text">Muilti-purpose Template</h6>
+                    <p>Lorem Ipsum is simply dummy text of teh printing and typesetting industry.</p>
+                </div>
+       </div>
     </div>
     <!-- PHILIPPA'S SECTION -->
-    <div class="section4b">
-        <h3 class="section4b-header">Meet our team</h3>
-        <div class="section4b-grid">
-            <div class="section4b-sub part1">
-                <div class="section4b-img-cont">
-                    <img src="" alt="" class="section4b-img" />
-                </div>
-                <div class="section4b-abt-cont">
-                    <h5 class="section4b-name">David Smith</h5>
+    <div class="container">
+        <h1 class="text-center">Meet our team</h1>
+         <div class="row">
+             <div class="col-md-6 myclass">
+                    <h5 class="section4b-name">DAVID SMITH</h5>
                     <p class="section4b-title">Front-end Developer</p>
-                    <p class="section4b-about">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                        soluta molestias nostrum distinctio .
-                    </p>
-                    <div>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                soluta molestias nostrum distinctio .
+            </p>                        <i class="fas"></i>
+                    <i class=""></i>
+                    <i class=""></i>
+                </div>
+                    <div class="col-md-6 myclass">
+                           <h5 class="section4b-name">DURWIN BABB</h5>
+                           <p class="section4b-title">Lead Designer</p>
+                   <p class="text-center">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                       soluta molestias nostrum distinctio .
+                   </p>
+        
                         <i class="fas"></i>
                         <i class=""></i>
                         <i class=""></i>
-                    </div>
-                </div>
-            </div>
-            <div class="section4b-sub part2">
-                <div class="section4b-img-cont">
-                    <img src="" alt="" class="section4b-img" />
-                </div>
-                <div class="section4b-abt-cont">
-                    <h5 class="section4b-name">David Smith</h5>
-                    <p class="section4b-title">Front-end Developer</p>
-                    <p class="section4b-about">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                        soluta molestias nostrum distinctio .
-                    </p>
-                    <div>
+                    
+                   </div>
+                   
+
+            
+           
+                <div class="col-md-6 myclass">
+                       <h5 class="section4b-name">ERIC PETERSON</h5>
+                       <p class="section4b-title">Product Designer</p>
+               <p class="text-center">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                   soluta molestias nostrum distinctio .
+               </p>
+               <i class="fas"></i>
+                    <i class=""></i>
+                    <i class=""></i>
+               </div>
+            
+                   <div class="col-md-6 myclass">
+                          <h5 class="section4b-name">MARIJN OTTE</h5>
+                          <p class="section4b-title">Lead Designer</p>
+                  <p class="text-center">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                      soluta molestias nostrum distinctio .
+                  </p>
+
                         <i class="fas"></i>
                         <i class=""></i>
                         <i class=""></i>
-                    </div>
-                </div>
-            </div>
-            <div class="section4b-sub part3">
-                <div class="section4b-img-cont">
-                    <img src="" alt="" class="section4b-img" />
-                </div>
-                <div class="section4b-abt-cont">
-                    <h5 class="section4b-name">David Smith</h5>
-                    <p class="section4b-title">Front-end Developer</p>
-                    <p class="section4b-about">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                        soluta molestias nostrum distinctio .
-                    </p>
-                    <div>
-                        <i class="fas"></i>
-                        <i class=""></i>
-                        <i class=""></i>
-                    </div>
-                </div>
-            </div>
-            <div class="section4b-sub part5">
-                <div class="section4b-img-cont">
-                    <img src="" alt="" class="section4b-img" />
-                </div>
-                <div class="section4b-abt-cont">
-                    <h5 class="section4b-name">David Smith</h5>
-                    <p class="section4b-title">Front-end Developer</p>
-                    <p class="section4b-about">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                        soluta molestias nostrum distinctio .
-                    </p>
-                    <div>
-                        <i class="fas"></i>
-                        <i class=""></i>
-                        <i class=""></i>
-                    </div>
-                </div>
-            </div>
+                    
+       
         </div>
-    </div>
+        </div>
+             </div>
     <div class="section5">
         <div class="row1 section5-row">
             <div class="section5-icon-cont">
